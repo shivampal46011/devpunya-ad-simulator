@@ -1,0 +1,110 @@
+{
+  "version": "2026-07-04",
+  "note": "All traits derived from measured segment statistics (cluster_segments.py + segment_deep_dive.py). Weights = share of users / share of revenue. creative_lifts = % over/under-response of the segment's conversions to copy attributes vs baseline.",
+  "personas": [
+    {
+      "id": "P1", "name": "Rajesh, 42, Indore", "segment": "6 enemy/obstacle puja",
+      "weight_users": 0.13, "weight_revenue": 0.25,
+      "profile": "Small business owner entangled in a court case over a property dispute. Believes rivals and jealous relatives are blocking his progress; suspects buri nazar. Facebook feed + some reels, browses late evening. Comfortable in Hinglish, reads English.",
+      "price_band": "Rs.800-1500 puja, will pay for named sankalp",
+      "creative_lifts": {"fear_frame": 77, "urgency": 30, "social_proof": 38, "long_copy": 36, "price_mention": -71, "hindi_script": -81},
+      "behavior": "Reads long copy fully when the problem matches his. Wants specifics: which deity, which temple, what ritual, video proof. Fear of enemies/obstacles resonates; discounts feel cheap for sacred work."
+    },
+    {
+      "id": "P2", "name": "Meena, 38, Thane", "segment": "6 enemy/obstacle puja",
+      "weight_users": 0.13, "weight_revenue": 0.26,
+      "profile": "Homemaker; husband's career stalled, in-law friction, feels the family is 'stuck'. Instagram reels + feed. Responds to Maa Baglamukhi imagery and stories of families freed from obstacles.",
+      "price_band": "Rs.900-1100, occasionally more before festivals",
+      "creative_lifts": {"fear_frame": 77, "urgency": 30, "social_proof": 38, "long_copy": 36, "price_mention": -71},
+      "behavior": "Stops scrolling on emotional hooks about family suffering or hidden negativity. Checklists of 'ideal for those who...' pull her in when one line names her situation."
+    },
+    {
+      "id": "P3", "name": "Suresh, 51, Delhi NCR", "segment": "6.1 whale sub-cluster",
+      "weight_users": 0.04, "weight_revenue": 0.15,
+      "profile": "Repeat buyer, LTV over Rs.3000, 2-3 pujas across deities (Baglamukhi, then Rahu, then Kaal Bhairav). Treats remote pujas as ongoing spiritual maintenance. Cross-buys when a new ritual promises to cover a gap the last one did not.",
+      "price_band": "Rs.1000-3500, buys VIP tiers",
+      "creative_lifts": {"fear_frame": 60, "urgency": 25, "social_proof": 40, "long_copy": 40},
+      "behavior": "Compares this ritual to ones he has done. Rarity claims ('once in 12 years', shaktipeeth exclusivity) and completeness (havan + jaap + prasad shipped) drive him. Ignores discounts."
+    },
+    {
+      "id": "P4", "name": "Priya, 33, Bengaluru", "segment": "1 english feed puja",
+      "weight_users": 0.13, "weight_revenue": 0.20,
+      "profile": "IT professional, first-generation urban, spiritual but not ritual-literate. Found DevPunya via an English Facebook/Instagram FEED ad (never converts from reels). One-and-done buyer unless re-convinced from scratch.",
+      "price_band": "Rs.1000-2500",
+      "creative_lifts": {"urgency": 56, "benefit_frame": 11, "hindi_script": -94, "social_proof": -86, "price_mention": -98},
+      "behavior": "Skips Hindi-script copy entirely. Deadline urgency works ('last 20 sankalps', 'closes tonight') because she postpones otherwise. Wants legitimacy signals: named temple, Vedic priests, HD video, certificate. Crowd numbers feel spammy to her."
+    },
+    {
+      "id": "P5", "name": "Anand, 45, Hyderabad", "segment": "1 english feed puja",
+      "weight_users": 0.13, "weight_revenue": 0.20,
+      "profile": "NRI-adjacent manager researching remedies for shani mahadasha he read about online. English only. Compares 2-3 providers before paying; opened the ad from feed on desktop at work.",
+      "price_band": "Rs.1500-3000",
+      "creative_lifts": {"urgency": 56, "hindi_script": -94, "social_proof": -86},
+      "behavior": "Analytical skeptic: what exactly is performed, by whom, where, what do I receive. Overclaiming ('100% guaranteed results') triggers rejection. Structured copy with deliverables list converts him."
+    },
+    {
+      "id": "P6", "name": "Sunita, 47, Kanpur", "segment": "3 chadhawa responders",
+      "weight_users": 0.19, "weight_revenue": 0.06,
+      "profile": "Devout homemaker, daily WhatsApp forwards, modest budget. Buys Rs.100-200 chadhawa offerings at famous temples she cannot visit. Facebook feed + reels, Hindi-comfortable but converts on simple English too.",
+      "price_band": "Rs.51-251, hard ceiling Rs.500",
+      "creative_lifts": {"price_mention": 168, "social_proof": 74, "long_copy": 36, "benefit_frame": 15},
+      "behavior": "Price on the ad is the trigger — 'Rs.101 chadhawa at Kashi Vishwanath' feels accessible and legitimate. '12,000 devotees offered this month' reassures her it is real. Big puja prices make her scroll past."
+    },
+    {
+      "id": "P7", "name": "Deepak, 29, Patna", "segment": "3 chadhawa responders",
+      "weight_users": 0.18, "weight_revenue": 0.05,
+      "profile": "Young private-job employee, orders chadhawa before exams, interviews, court dates of relatives. Instagram reels heavy. Impulse buyer: sees reel, orders in 2 minutes, forgets.",
+      "price_band": "Rs.51-151",
+      "creative_lifts": {"price_mention": 168, "social_proof": 74},
+      "behavior": "Hook must land in the first line; he never expands captions. Specific low price + specific famous temple + today's tithi = conversion. Anything requiring reading loses him."
+    },
+    {
+      "id": "P8", "name": "Kamla, 58, Varanasi", "segment": "3.1 habitual ritualists",
+      "weight_users": 0.015, "weight_revenue": 0.02,
+      "profile": "Retired teacher, 4+ orders, treats monthly chadhawa like a standing ritual (purnima, amavasya, sankashti). The most loyal low-ticket buyer. Hindi devotional copy is her language of trust.",
+      "price_band": "Rs.101-301, repeats monthly",
+      "creative_lifts": {"hindi_script": 150, "price_mention": 80, "urgency": -40},
+      "behavior": "Tithi-based hooks ('is amavasya par...') match her calendar. Salesy pressure feels disrespectful; devotional tone ('maa ke charno mein arpan karein') feels right. Recognizes and prefers rituals she has done before."
+    },
+    {
+      "id": "P9", "name": "Pooja, 26, Mumbai", "segment": "0 hindi reels devotees",
+      "weight_users": 0.07, "weight_revenue": 0.04,
+      "profile": "Salon worker, deeply devotional, follows bhakti pages. Instagram reels 50%+. Converts on Hindi-script devotional copy; every Western persuasion tactic reads as fake to her.",
+      "price_band": "Rs.101-501",
+      "creative_lifts": {"hindi_script": 391, "urgency": -73, "social_proof": -94, "benefit_frame": -72, "long_copy": -69},
+      "behavior": "Short Hindi copy with maa/mandir emotional pull. 'Book Now' pressure, countdowns, testimonials all reduce trust. The video's devotional feel matters more than any text."
+    },
+    {
+      "id": "P10", "name": "Ramesh, 36, Lucknow", "segment": "0 hindi reels devotees",
+      "weight_users": 0.07, "weight_revenue": 0.04,
+      "profile": "Shop owner, watches devotional reels at night. Occasionally upgrades from chadhawa to a small puja when the deity matches a current worry. Hindi only.",
+      "price_band": "Rs.101 chadhawa to Rs.500 puja",
+      "creative_lifts": {"hindi_script": 391, "urgency": -73, "fear_frame": -38},
+      "behavior": "Trusts what sounds like a pandit speaking, not a marketer. Simple devotional Hindi with the temple's name converts; heavy English or emoji-wall copy scrolls past."
+    },
+    {
+      "id": "P11", "name": "Vikram, 39, Pune", "segment": "5 wealth/property seekers",
+      "weight_users": 0.03, "weight_revenue": 0.05,
+      "profile": "Real-estate broker with stuck deals and a land dispute. Recently acquired via Varahi campaigns (this segment is surging in Q3 2026). Facebook feed, watches full videos but skims text.",
+      "price_band": "Rs.900-1500, repeat-prone (23%)",
+      "creative_lifts": {"fear_frame": 46, "urgency": 46, "benefit_frame": 38, "long_copy": -69, "hindi_script": -88},
+      "behavior": "Hooks naming HIS world work: property, land, builders, big businessmen, court dates. Both fear (deal blocked by hidden forces) and aspiration (unlock wealth) convert. Long scriptural copy loses him — the video carries the story."
+    },
+    {
+      "id": "P12", "name": "Lakshmi, 44, Chennai-born in Mumbai", "segment": "4 shani remedial seekers",
+      "weight_users": 0.03, "weight_revenue": 0.03,
+      "profile": "Knows her astrology: sade sati, mahadasha, navgrah. Seeks specific remedial rituals (til-tel abhishek, shani shanti). Feed reader, almost never reels.",
+      "price_band": "Rs.700-1200",
+      "creative_lifts": {"social_proof": 59, "benefit_frame": 27, "urgency": 22, "price_mention": -100},
+      "behavior": "Converts when the ad names the exact remedy and planetary problem she has. Astrological specificity = credibility. Generic 'remove all problems' copy fails; mentioning price feels wrong for graha work."
+    },
+    {
+      "id": "P13", "name": "Govind, 62, Kolhapur", "segment": "2 temple loyalists",
+      "weight_users": 0.04, "weight_revenue": 0.02,
+      "profile": "Retired clerk devoted to specific temples (Kolhapur Mahalaxmi, Hanuman mandirs, shaktipeeths). Facebook only. Highest repeat rate (25%) but tiny tickets. Immune to persuasion tactics — responds only to WHICH temple and WHICH offering.",
+      "price_band": "Rs.51-151",
+      "creative_lifts": {"hindi_script": -80, "urgency": -79, "social_proof": -90, "fear_frame": -57, "long_copy": -93},
+      "behavior": "Scans for the temple name he worships. Plain short copy naming temple + offering + date converts; everything else is noise he has learned to skip."
+    }
+  ]
+}
